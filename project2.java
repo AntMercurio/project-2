@@ -98,7 +98,7 @@
     }
     void collisions() {
       float tmp;
-      // Swap velocities!
+      // change speeds
       if ( dist( redX, redY, yelX, yelY ) < 20 ) {
         tmp=yelDX;  
         yelDX=redDX;  
